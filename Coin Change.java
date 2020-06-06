@@ -37,7 +37,8 @@ class Solution {
         // it will check for number of coins if the coin towards which the index is pointed is less than the amount for which we are checking.
         // e.g. --> at the beginning  dp will find number of coins for amount 1.
         // suppose coins = [1,2,5] and amount = 11
-        // coin to be checked is 1 and amount is 1. so it will go in the if condition. here a comparison is made. current dp[i] is 12 and the second one is computed as 1 coin of that denomination  +                coins used for amount (i.e amount - value of that coin). this              compuation is dependent on another subproblem whose result is              previously stored in array thus maintaing the essence of dynamic            programming.
+        // coin to be checked is 1 and amount is 1. so it will go in the if condition. here a comparison is made. current dp[i] is 12 and the second one is computed as 1 coin of that denomination  + coins used for amount (i.e amount - value of that coin). 
+        // this compuation is dependent on another subproblem whose result is previously stored in array thus maintaing the essence of dynamic  programming.
 
         for(int i=1 ; i<=amount ;i++)
         {

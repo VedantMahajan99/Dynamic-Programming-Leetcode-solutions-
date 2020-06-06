@@ -31,7 +31,7 @@ class Solution {
     public int climbStairs(int n) {
 
 
-        //climbing stairs can be computed in same as fibbonci
+        //climbing stairs can be computed in same as fibbonaci
 
         int[] array = new int[n+1];
 
